@@ -125,3 +125,33 @@
 .ch-item:hover .ch-info p {
 	opacity: 1;
 }
+
+.visible-img {
+	width: 100%;
+	padding: 10px 0;
+}
+
+.table-wrap {
+	overflow-x: auto;
+  border: 1px solid #a5a5a5;
+}
+
+.table-wrap td {
+	padding: 5px;
+}
+
+div[data-mi="nav"]#content3 {
+	background-color: #75b398;
+}
+
+div[data-mi="nav"] .resume .resume-box {
+	border-left-color: #f2f2f2;
+}
+
+div[data-mi="nav"] .resume .resume-box .icons {
+	background-color: #f2f2f2;
+}
+
+div[data-mi="nav"] .resume .resume-box .company a {
+	color: #32323c;
+}

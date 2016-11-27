@@ -167,7 +167,7 @@ a
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
-#content img {
+#content img:not(.visible-img) {
   border-radius: 90%;
   float: right;
   border: 3px solid #e8e9e8;
@@ -177,7 +177,7 @@ a
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
 }
-#headlines-about {
+.headlines-about {
   font-size: 4em;
   line-height: 0px;
   text-align: right;
@@ -187,7 +187,7 @@ a
   margin-top: 31px;
   color: #32323c;
 }
-#headlines-resume {
+.headlines-resume {
   font-size: 4em;
   color: #f2f2f2;
   text-align: center;
@@ -216,7 +216,7 @@ a
   float: left;
   width: 300px;
 }
-#about-me-box {
+.about-me-box {
   width: 480px;
   float: left;
   padding-left: 25px;
@@ -270,11 +270,11 @@ a
   -o-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
 }
-#about, #resume, #work, #contact {
+.about, .resume, #work, #contact {
   width: 850px;
   margin: 0 auto;
 }
-#resume-box {
+.resume-box {
   width: 480px;
   float: left;
   padding-left: 25px;
@@ -840,16 +840,16 @@ animation-duration:2s;
   background-image: none;
   padding: 100px 0px 100px 0px !important;
 }
-#about, #resume, #work, #contact, #selection-download {
+.about, .resume, #work, #contact, #selection-download {
   width: 85%;
   margin: 0 auto;
 }
-#headlines-about {
+.headlines-about {
   text-align: center;
   padding: 0px;
   width: 100%;
 }
-#headlines-resume {
+.headlines-resume {
   text-align: center;
   padding: 0px;
   width: 100%;
@@ -865,16 +865,16 @@ animation-duration:2s;
   padding: 0px;
   width: 100%;
 }
-#content img {
+#content img:not(.visible-img) {
   display: none;
 }
-#about-me-box {
+.about-me-box {
   width: 100%;
 }
 #line-1 {
   margin-top: 25px;
 }
-#resume-box {
+.resume-box {
   width: 100%;
 }
 .icons {
@@ -956,11 +956,11 @@ animation-duration:2s;
 #header-headlines {
   top: 50%;
 }
-#about, #resume, #work, #contact, #selection-download {
+.about, .resume, #work, #contact, #selection-download {
   padding-left: 20px;
   width: 127%;
 }
-#about-me-box, #resume-box, #gallery  {
+.about-me-box, .resume-box, #gallery  {
   width: 33%;
 }
 #line-1 {
