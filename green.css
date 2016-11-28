@@ -974,6 +974,10 @@ animation-duration:2s;
 }
 }
 
-#my_photo {
+.my_photo {
   width: 250px;
+}
+
+.name-attendee {
+  font-size: 0.5em;
 }
